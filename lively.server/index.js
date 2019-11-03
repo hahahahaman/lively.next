@@ -14,7 +14,8 @@ var config = {
   port: 9011,
   hostname: "localhost",
   rootDirectory: null,
-  plugins: []
+  plugins: [],
+  freezer: {publicDirs: {}}
 };
 
 module.exports = function start(hostname, port, configFile, rootDirectory, serverDir) {

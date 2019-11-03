@@ -49,6 +49,7 @@ export default class FrozenPartsLoader {
   get pluginId() { return "FrozenPartsLoader" }
 
   constructor(config) {
+    console.log(config)
     this.publicDirs = config.freezer.publicDirs;
   }
 
